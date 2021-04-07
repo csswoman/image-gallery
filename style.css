@@ -1,0 +1,40 @@
+:root {
+  --primary-color: #4fd190;
+}
+
+html {
+  font-family: "Poppins", sans-serif;
+}
+
+.menu-pc {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 36px;
+}
+
+.menu-pc a {
+  color: #444;
+  text-decoration: none;
+  padding: 0 10px;
+}
+
+.menu-pc a:last-child {
+  padding-right: 0;
+}
+
+.menu-pc a:hover {
+  text-decoration: underline;
+  color: var(--primary-color);
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+}
+
+.hero-image {
+  width: 50%;
+}
